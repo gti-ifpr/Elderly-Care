@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Projeto Firebase</string>
+    <string name="entrar">Entrar</string>
+    <string name="msgBtnCliente">Procuro um Cuidador</string>
+    <string name="msgBtnCuidador">Sou um Cuidador</string>
+    <string name="tvBemVindo">Seja bem vindo ao Cuidar Bem!</string>
+    <string name="tvCadastro">Cadastre-se, clicando aqui.</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="msgBtnCadastrar">Cadastrar</string>
+
+</resources>
