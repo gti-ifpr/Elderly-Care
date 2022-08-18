@@ -17,15 +17,10 @@ public class FormLogin extends AppCompatActivity {
         setContentView(R.layout.activity_form_login);
 
         getSupportActionBar().hide();
-    }
-
-        private void IniciarComponentes() {
-            text_tela_cadastro = findViewById(R.id.text_tela_cadastro);
-        }
-
-            text_tela_cadastro.setOnClickListener(new View.OnClickListener(){
+        IniciarComponentes();
+        text_tela_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick (View v){
+            public void onClick(View view) {
 
                 Intent intent = new Intent(FormLogin.this, FormCadastro.class);
                 startActivity(intent);
@@ -34,7 +29,7 @@ public class FormLogin extends AppCompatActivity {
     }
 
     private void IniciarComponentes(){
-        text_tela_cadastro = findViewById(R.id.text_tela_cadastro);
-    }
+        text_tela_cadastro = findViewById(R.id.tvTelaCadastro);
 
+    }
 }
