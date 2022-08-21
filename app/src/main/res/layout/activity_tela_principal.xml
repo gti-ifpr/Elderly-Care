@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
-        android:text="lkjlijçlkj~jçjiklhç"
+        android:text=" "
         android:textColor="@color/azul_tema"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
-        android:text="lkjlijçlkj@jçjiklhç"
+        android:text=" "
         android:textColor="@color/azul_tema"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -72,6 +72,7 @@
         app:layout_constraintStart_toEndOf="@id/iconeEmail"/>
 
     <Button
+        android:id="@+id/btnDeslogar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Deslogar"
