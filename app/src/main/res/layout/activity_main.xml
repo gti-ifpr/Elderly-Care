@@ -26,7 +26,7 @@
         <View
             android:id="@+id/containerComponents"
             style="@style/ContainerComponents"
-            android:layout_height="300dp"
+            android:layout_height="220dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/s" />
@@ -53,16 +53,17 @@
             android:text="@string/msgBtnCliente"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvBemVindo"/>
+            app:layout_constraintTop_toBottomOf="@id/tvBemVindo"
+            app:layout_constraintBottom_toBottomOf="@id/containerComponents"/>
 
-        <androidx.appcompat.widget.AppCompatButton
+        <!--<androidx.appcompat.widget.AppCompatButton
             style="@style/Button"
             android:id="@+id/btnCuidador"
             android:text="@string/msgBtnCuidador"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btnCliente"
-            app:layout_constraintBottom_toBottomOf="@id/containerComponents"/>
+            app:layout_constraintBottom_toBottomOf="@id/containerComponents"/>-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

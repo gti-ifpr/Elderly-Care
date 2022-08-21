@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -57,7 +58,6 @@ public class FormCadastro extends AppCompatActivity {
                     snackbar.show();
                 }else{
                     CadastrarUsuario(view);
-
                 }
             }
         });
@@ -79,6 +79,9 @@ public class FormCadastro extends AppCompatActivity {
                     snackbar.setBackgroundTint(Color.DKGRAY);
                     snackbar.setTextColor(Color.WHITE);
                     snackbar.show();
+                    Intent intent = new Intent(FormCadastro.this,TelaPrincipal.class);
+                    startActivity(intent);
+                    finish();
                 }else{
                     String erro;
                     try {
