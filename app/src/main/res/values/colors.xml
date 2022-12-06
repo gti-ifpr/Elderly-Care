@@ -8,9 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="azul_tema">#08033B</color>
-    <color name="verde_1">#8ED14D</color>
+    <color name="verde_1">#2C77E5</color>
     <color name="verde_2">#CFEBB0</color>
-    <color name="verde_3">#D5DDCF</color>
-    <color name="verde_4">#439854</color>
+    <color name="verde_3">#B5CFFF</color>
+    <color name="verde_4">#2556A1</color>
 
 </resources>
